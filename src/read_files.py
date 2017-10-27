@@ -79,7 +79,7 @@ if __name__ == "__main__":
     # This code will run locally on master
     conf = ( SparkConf()
             . setMaster("local[20]")
-            . setAppName("analyze cve db")
+            . setAppName("sample app for reading files")
             . set("spark.executor.memory", "2g"))
 
     sc = SparkContext(conf=conf)
