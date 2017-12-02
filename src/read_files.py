@@ -4,7 +4,7 @@ from operator import add
 
 from pyspark import SparkConf, SparkContext, SQLContext
 
-datafile_json = "../sample-data/description.json"
+ datafile_json = "../sample-data/description.json"
 datafile_csv = "../sample-data/description.csv"
 datafile_psv = "../sample-data/description.psv"
 
